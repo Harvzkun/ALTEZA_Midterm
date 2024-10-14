@@ -44,7 +44,7 @@ class Student extends Person {
         System.out.println("Student ID: " + studentID);
         System.out.println("Course: " + course);
         System.out.println("Units: " + units);
-        System.out.println("Total Fees: $" + calculateFees());
+        System.out.println("Total Fees: " + calculateFees());
     }
 }
 
@@ -69,7 +69,7 @@ class Instructor extends Person {
         super.displayInfo(); // Call the base class method to display name and age
         System.out.println("Employee ID: " + employeeID);
         System.out.println("Department: " + department);
-        System.out.println("Salary: $" + salary);
+        System.out.println("Salary: " + salary);
     }
 }
 
